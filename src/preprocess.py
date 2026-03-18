@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from src.config import ANGLO_COUNTRIES
 
 def apply_base_features(df):
     df = df.copy()
